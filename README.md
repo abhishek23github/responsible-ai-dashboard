@@ -16,23 +16,23 @@ A Streamlit-based tool to evaluate LLM-generated outputs across key Responsible 
 
 ## 🖼️ UI Preview
 
-| Prompt Panel | Dashboard |
-|--------------|-----------|
-| ![Prompt](./screenshots/ui.png) | ![Dashboard](./screenshots/dashboard.png) |
+| Prompt Panel           | Dashboard                        |
+| ---------------------- | -------------------------------- |
+| ![Prompt](./ui/ui.png) | ![Dashboard](./ui/dashboard.png) |
 
 ---
 
 ## 🛠 Tech Stack
 
-| Layer          | Tool / Library           |
-|----------------|--------------------------|
-| Frontend UI     | Streamlit                |
-| LLM API         | OpenAI (`openai` lib)    |
-| Toxicity        | Perspective API (or Detoxify) |
-| Bias Detection  | Keyword scan             |
-| Accuracy/Etc.   | Simulated                |
-| Visualization   | Matplotlib               |
-| Logging         | Pandas → CSV             |
+| Layer          | Tool / Library                |
+| -------------- | ----------------------------- |
+| Frontend UI    | Streamlit                     |
+| LLM API        | OpenAI (`openai` lib)         |
+| Toxicity       | Perspective API (or Detoxify) |
+| Bias Detection | Keyword scan                  |
+| Accuracy/Etc.  | Simulated                     |
+| Visualization  | Matplotlib                    |
+| Logging        | Pandas → CSV                  |
 
 ---
 
